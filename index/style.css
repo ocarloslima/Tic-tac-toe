@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background-color: sandybrown;
+    height: 100vh;
+}
+
+body, .square, #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tab {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: black;
+    font-size: 6rem;
+}
+
+.square {
+    background-color: sandybrown;
+    width: 150px;
+    height: 150px;
+}
+
+p {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    visibility: hidden;
+}
+
+button {
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #da8943;
+    cursor: pointer;
+}
